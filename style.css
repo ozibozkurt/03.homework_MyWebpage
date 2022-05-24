@@ -8,10 +8,9 @@
 }
 
 .iframe {
-    width="560";
-    
-    height="315";
-    frameborder="0";
+    width: "560";
+
+    height:"315";
 }
 
 * {
@@ -88,7 +87,7 @@ button {
 .content .about {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 110%;
 }
 
 .content .about img {
@@ -97,6 +96,13 @@ button {
     border-radius: 250px;
     border: 15px solid var(--color3);
 }
+.myphotos{
+        display: flex;
+        justify-content: center;
+            width: 110%;
+                padding: 40px;
+        }
+
 
 .content .description {
     display: flex;
@@ -171,12 +177,3 @@ button {
     border-top: 1px dotted gray;
 }
 
-next {
-    float: left;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    border 1px solid #dedede;
-    margin: 15px;
-
-}
