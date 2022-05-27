@@ -96,6 +96,14 @@ button {
     border-radius: 250px;
     border: 15px solid var(--color3);
 }
+.buttons {
+    display: flex;
+        justify-content: center;
+        width: 95%;
+        padding: 10px;
+        
+        
+}
 .myphotos{
         display: flex;
         justify-content: center;
